@@ -39,16 +39,18 @@ var layout = new Layout(
         {type:"",width:20},
         {type:"txt", font:DataFont, col:"#0F0", bgCol:"#000",label:"00", id:"PROG", fillx:1, height:EL7_height },
       ]},
-      {type:"",height:1},
+//      {type:"",height:1},
       {type:"h", c: [
+        {type:"",width:5},
         {type:"txt", font:"6x8", col:"#000", bgCol:"#0F0",label:"VERB", width:25, height:10},
-        {type:"",width:30},
+        {type:"",width:25},
         {type:"txt", font:"6x8", col:"#000",bgCol:"#0F0",label:"NOUN", width:25, height:10},
       ]},
       {type:"h", c: [
           {type:"txt", font:DataFont, col:"#0F0", bgCol:"#000", label:"00", id:"VERB", fillx:1, height:EL7_height},
           {type:"txt", font:DataFont, col:"#0F0", bgCol:"#000", label:"00", id:"NOUN", fillx:1, height:EL7_height}, 
       ]},
+      { type:"", width:5},
       { type:"",bgCol:'#070', width:80, height:2 },
         {type:"txt", font:DataFont, col:"#0F0", bgCol:"#000", label:"00000", id:"R1", halign:1, fillx:1, height:EL7_height},
         {type:"txt", font:DataFont, col:"#0F0", bgCol:"#000", label:"00000", id:"R2", halign:1, fillx:1, height:EL7_height},
@@ -62,7 +64,7 @@ var layout = new Layout(
   ], lazy:true});
 layout.update();
 
-//support functioe_ns
+//support functions
 
 function getWeather() {
   var weather = {};
