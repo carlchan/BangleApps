@@ -48,6 +48,7 @@ var layout = new Layout(
       ]},
       {type:"h", c: [
           {type:"txt", font:DataFont, col:"#0F0", bgCol:"#000", label:"00", id:"VERB", fillx:1, height:EL7_height},
+          {type:"",width:10},
           {type:"txt", font:DataFont, col:"#0F0", bgCol:"#000", label:"00", id:"NOUN", fillx:1, height:EL7_height}, 
       ]},
       { type:"", width:10},
