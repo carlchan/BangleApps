@@ -27,7 +27,7 @@ var layout = new Layout(
         {type:"txt", font:LightFont, col:"#000", bgCol:"#555", id:'L5', label:"PROG", width:Light_width, height:Light_height },
         {type:"txt", font:LightFont, col:"#000", bgCol:"#eee", id:'L6', label:"OPR ERR", width:Light_width, height:Light_height },
     ]},
-    { type:"", width:30},
+    { type:"", width:27},
     { type:"v", c: [
       {type:"",height:2},
       {type:"h", c: [
@@ -36,7 +36,7 @@ var layout = new Layout(
       {type:"h", c: [
         {type:"",width:5},
         {type:"txt", font:"6x8", col:"#000", bgCol:"#000", id:"COMPACTY", label:"COMP\nACTY", width:26, height:26 },
-        {type:"",width:22},
+        {type:"",width:25},
         {type:"txt", font:DataFont, col:"#0F0", bgCol:"#000",label:"00", id:"PROG", fillx:1, height:EL7_height },
       ]},
       {type:"",height:1},
