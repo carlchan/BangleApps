@@ -34,7 +34,7 @@ var layout = new Layout(
         {type:"", width:50},{type:"txt", font:"6x8", col:"#000",bgCol:"#0F0", label:"PROG", width:25, height:10},
       ]},
       {type:"h", c: [
-        {type:"",width:5},
+        {type:"",width:4},
         {type:"txt", font:"6x8", col:"#000", bgCol:"#000", id:"COMPACTY", label:"COMP\nACTY", width:26, height:26 },
         {type:"",width:20},
         {type:"txt", font:DataFont, col:"#0F0", bgCol:"#000",label:"00", id:"PROG", fillx:1, height:EL7_height },
